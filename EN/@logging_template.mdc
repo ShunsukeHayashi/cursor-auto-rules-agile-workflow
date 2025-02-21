@@ -1,0 +1,55 @@
+# Logging Template
+
+## Basic Information
+- Timestamp: {{timestamp}}
+- Executor: {{executor}}
+- Task ID: {{task_id}}
+- Context Size: {{context_size}}
+
+## Memory Bank Reference
+- Project: {{project_name}}
+- Current Epic: {{current_epic}}
+- Current Story: {{current_story}}
+- Execution Phase: {{execution_phase}}
+
+## Input Analysis
+[Input] → [User Intent] → [Intent]({{intents}})
+[Input] → [User Intent] → [Want or need Intent]({{wants}})
+
+<User Input>
+{{user_input}}
+</User Input>
+
+## Task Definition
+[Fixed User want intent] = {{fixed_goal}}
+Achieve Goal == Need Tasks
+[Goal]=[Tasks]({{tasks}})
+
+## Rule Application
+- Applied Rules: {{applied_rules}}
+- Rule Versions: {{rule_versions}}
+- Priority Adjustments: {{priority_adjustments}}
+
+## Execution Status
+- Status: {{status}}
+- Progress: {{progress}}
+- Result: {{result}}
+- Validation Results: {{validation_results}}
+
+## Feedback Loop
+- User Feedback: {{feedback}}
+- AI Analysis: {{ai_analysis}}
+- Rule Adjustment Proposals: {{rule_adjustments}}
+
+## Memory Updates
+- New Learning Items: {{new_learnings}}
+- Context Updates: {{context_updates}}
+- Rule Optimizations: {{rule_optimizations}}
+
+## Next Actions
+{{next_actions}}
+
+## Quality Metrics
+- Code Quality: {{code_quality}}
+- Test Coverage: {{test_coverage}}
+- Documentation Completeness: {{documentation_completeness}}

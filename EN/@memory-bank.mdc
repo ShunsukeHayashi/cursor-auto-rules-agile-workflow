@@ -1,0 +1,81 @@
+# Memory Bank
+
+## Project Information
+- Project Name: Cursor Auto Rules Agile Workflow
+- Start Date: 2025-02-21 18:48
+- Purpose: Implementation of Agile Workflow Automation Rules
+- Development Method: LDD (Log-Driven Development)
+
+## LDD Integration Information
+### Logging Structure
+- Base Template: @logging_template.mdc
+- Log Directory: .logs/
+- Log Format: Markdown/MDC
+
+### Feedback Loop
+- User Feedback Collection
+- AI Analysis and Optimization
+- Rule Auto-adjustment Mechanism
+
+### Metrics Tracking
+- Code Quality Indicators
+- Test Coverage
+- Documentation Completeness
+- Rule Optimization Effects
+
+## Execution History
+### Initialization
+- Creation and Extension of @logging_template.mdc
+- Establishment of Basic Logging Structure
+- LDD Integration Implementation
+
+### Rule Optimization
+- Integration of Auto-tuning Mechanism
+- Feedback-based Improvements
+- Metrics-based Adjustments
+
+## Context Retention
+### Rules and Constraints
+- File Format: .md/.mdc
+- Language: English
+- Execution Environment: Windows
+- Log-Driven Development Principles Compliance
+
+### Important Decisions
+1. Adoption and Extension of LDD (Log-Driven Development)
+2. Agile Workflow Automation
+3. Implementation of Structured Log Recording
+4. Establishment of Feedback Loop
+5. Metrics-based Optimization
+
+## Task History
+[Task ID: INIT-001]
+- Purpose: Initial Environment Setup
+- Status: Completed
+- Deliverable: @logging_template.mdc
+- Learning: Establishment of Basic Log Structure
+
+[Task ID: TASK-001]
+- Purpose: Start of Agile Workflow Automation
+- Status: In Progress
+- Deliverable: .logs/TASK-001-start.md
+- Learning: Importance of LDD Integration
+
+## Optimization History
+### Rule Adjustments
+- Establishment of Initial Rule Set
+- Feedback-based Improvements
+- Verification through Metrics
+
+### Performance Improvements
+- Log Structure Optimization
+- Context Efficiency Enhancement
+- Feedback Loop Efficiency
+
+## Next Steps
+1. Complete Environment Check
+2. Complete Required File Existence Verification
+3. Update Memory Bank
+4. Create Initialization Completion Report
+5. Verify LDD Integration
+6. Start Metrics Collection
