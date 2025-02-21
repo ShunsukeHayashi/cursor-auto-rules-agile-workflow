@@ -1,0 +1,30 @@
+# ロギングテンプレート
+
+## 基本情報
+- タイムスタンプ: {{timestamp}}
+- 実行者: {{executor}}
+- タスクID: {{task_id}}
+
+## 入力情報
+[Input] → [User Intent] → [Intent]({{intents}})
+[Input] → [User Intent] → [Want or need Intent]({{wants}})
+
+<User Input>
+{{user_input}}
+</User Input>
+
+## タスク定義
+[Fixed User want intent] = {{fixed_goal}}
+Achieve Goal == Need Tasks
+[Goal]=[Tasks]({{tasks}})
+
+## 実行ステータス
+- ステータス: {{status}}
+- 進捗: {{progress}}
+- 結果: {{result}}
+
+## フィードバック
+{{feedback}}
+
+## 次のアクション
+{{next_actions}}
