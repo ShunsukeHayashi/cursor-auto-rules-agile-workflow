@@ -1,172 +1,68 @@
-# Roo Code Memory Bank with Agile Workflow
+# 🌟 Roo Code Memory Bank with Agile Workflow 🚀
 
-要件駆動開発システムとアジャイルワークフローを統合し、プロジェクトコンテキストを維持しながら複数の専門化された役割を調整する開発フレームワーク。
+[English](EN/README.md) | [日本語](JA/README.md)
 
-## 概要
+## 🎯 Vision / ビジョン
+> 要件駆動開発システムとアジャイルワークフローを統合し、プロジェクトコンテキストを維持しながら複数の専門化された役割を調整する開発フレームワーク。
 
-このプロジェクトは、4つの主要なアプローチを統合します：
+> A development framework that integrates requirement-driven development system and agile workflow, coordinating multiple specialized roles while maintaining project context.
 
-1. **メモリーバンクシステム**
-   - プロジェクトコンテキストの維持
-   - 知識の継続的な蓄積と活用
-   - 複数の専門化された役割の調整
+## 🌈 特徴 / Features
 
-2. **ログ駆動開発（LDD）**
-   - 構造化されたログ記録
-   - フィードバックベースの改善
-   - 実行履歴の追跡
+### 🧠 メモリーバンクシステム / Memory Bank System
+- プロジェクトコンテキストの維持 / Project context maintenance
+- 知識の継続的な蓄積と活用 / Continuous knowledge accumulation and utilization
+- 複数の専門化された役割の調整 / Coordination of multiple specialized roles
 
-3. **アジャイルワークフロー**
-   - エピック/ストーリーベースの管理
-   - 段階的な実装と継続的な改善
-   - ルールベースの自動化
+### 📝 ログ駆動開発（LDD）/ Log-Driven Development
+- 構造化されたログ記録 / Structured logging
+- フィードバックベースの改善 / Feedback-based improvement
+- 実行履歴の追跡 / Execution history tracking
 
-4. **SpecStory統合**
-   - AI対話履歴の管理
-   - 知識の検索と再利用
-   - 継続的な学習と改善
+### 🔄 アジャイルワークフロー / Agile Workflow
+- エピック/ストーリーベースの管理 / Epic/Story-based management
+- 段階的な実装と継続的な改善 / Incremental implementation and continuous improvement
+- ルールベースの自動化 / Rule-based automation
 
-## システム構造
+### 🤖 AI統合 / AI Integration
+- AI対話履歴の管理 / AI conversation history management
+- 知識の検索と再利用 / Knowledge search and reuse
+- 継続的な学習と改善 / Continuous learning and improvement
 
-```
-プロジェクトルート/
-├── .ai/                    # アジャイル管理
-│   ├── prd.md             # 製品要件
-│   ├── arch.md            # アーキテクチャ
-│   └── epic-{n}/          # エピック管理
-│
-├── .cursor/rules/         # ルール管理
-│   ├── 000-cursor-rules.mdc  # ルール基本定義
-│   ├── 801-workflow-agile.mdc # 統合ワークフロー
-│   ├── 901-prd.mdc       # PRDテンプレート
-│   ├── 902-arch.mdc      # アーキテクチャテンプレート
-│   └── 903-story.mdc     # ストーリーテンプレート
-│
-├── .logs/                 # LDD（ログ駆動開発）
-│   └── TASK-{n}-{name}.md # タスクログ
-│
-├── .specstory/           # SpecStory統合
-│   ├── history/          # AI対話履歴
-│   ├── patterns/         # 識別されたパターン
-│   ├── learnings/        # 学習内容
-│   └── metrics/          # 収集されたメトリクス
-│
-├── @memory-bank.mdc      # メモリーバンク
-└── @logging_template.mdc  # ログテンプレート
-```
+## 🌟 Unique Points / 特徴的なポイント
 
-## メモリーバンクの役割
+- 🔰 **バイリンガル対応** / Bilingual Support
+  - 日本語と英語の完全なドキュメント / Complete documentation in Japanese and English
+  - 言語に依存しない開発フロー / Language-independent development flow
 
-メモリーバンク（@memory-bank.mdc）は以下の機能を提供します：
+- 🎨 **柔軟なカスタマイズ** / Flexible Customization
+  - プロジェクト固有のルール定義 / Project-specific rule definitions
+  - 拡張可能なテンプレート / Extensible templates
 
-1. **コンテキスト管理**
-   - プロジェクト情報の保持
-   - 実行履歴の記録
-   - 重要な決定事項の追跡
+- 📊 **メトリクスベースの改善** / Metrics-Based Improvement
+  - 自動化されたパフォーマンス追跡 / Automated performance tracking
+  - データ駆動の意思決定 / Data-driven decision making
 
-2. **知識ベース**
-   - ルールと制約の管理
-   - 学習内容の蓄積
-   - ベストプラクティスの維持
+## 🛠️ Getting Started / はじめに
 
-3. **タスク追跡**
-   - 実行中のタスクの状態管理
-   - 完了したタスクの履歴
-   - 次のアクションの計画
-
-## ログ駆動開発（LDD）
-
-LDDは以下の要素で構成されます：
-
-1. **ログテンプレート**
-   - 標準化された記録フォーマット
-   - コンテキストの保持
-   - メトリクスの追跡
-
-2. **フィードバックループ**
-   - 実行結果の分析
-   - 改善点の特定
-   - 自動最適化の提案
-
-3. **品質管理**
-   - コード品質の監視
-   - テストカバレッジの確認
-   - ドキュメントの完全性
-
-## SpecStory統合
-
-SpecStoryは以下の機能を提供します：
-
-1. **AI対話管理**
-   - 開発プロセスの対話記録
-   - 意思決定の履歴保持
-   - パターンの識別と再利用
-
-2. **知識活用**
-   - 過去の解決策の検索
-   - ベストプラクティスの抽出
-   - 経験からの学習
-
-3. **メトリクス分析**
-   - 対話効率の測定
-   - 学習効果の評価
-   - プロセス改善の追跡
-
-## アジャイルワークフロー統合
-
-ワークフローは以下のフェーズで構成されます：
-
-1. **計画フェーズ**
-   - PRDの作成と承認
-   - アーキテクチャの設計
-   - エピックの定義
-
-2. **実行フェーズ**
-   - ストーリーの実装
-   - タスクの完了
-   - 継続的なテスト
-
-3. **最適化フェーズ**
-   - メトリクスの分析
-   - ルールの調整
-   - パフォーマンスの改善
-
-## 使用方法
-
-1. **プロジェクトの初期化**
 ```powershell
+# Clone the repository / リポジトリのクローン
+git clone https://github.com/ShunsukeHayashi/cursor-auto-rules-agile-workflow.git
+
+# Initialize the project / プロジェクトの初期化
 .\apply-rules.ps1 <target-project-path>
 ```
 
-2. **開発プロセス**
-   - PRDとアーキテクチャの作成
-   - エピックとストーリーの定義
-   - タスクの実装とログ記録
-   - メモリーバンクの更新
-   - AI対話の記録と活用
+## 📚 Documentation / ドキュメント
+- [English Documentation](EN/docs/)
+- [日本語ドキュメント](JA/docs/)
 
-3. **継続的な改善**
-   - フィードバックの収集
-   - メトリクスの分析
-   - ルールの最適化
-   - プロセスの調整
-   - 知識ベースの拡充
+## 🤝 Contributing / コントリビューション
+プロジェクトへの貢献を歓迎します！/ Contributions are welcome!
 
-## 特徴
-
-- 完全統合された開発環境
-- 自動化されたルール適用
-- 構造化されたログ記録
-- コンテキストベースの知識管理
-- フィードバックベースの最適化
-- 柔軟なワークフロー適応
-- AI対話履歴の活用
-- パターンベースの問題解決
-
-## ライセンス
-
+## 📜 License / ライセンス
 MIT
 
-## 作者
-
-BMad Code
+## 👥 Authors / 作者
+- BMad Code (Original Author / 原作者)
+- Shunsuke Hayashi (Contributor / コントリビューター)
