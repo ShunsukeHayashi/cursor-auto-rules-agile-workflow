@@ -1,6 +1,20 @@
-/node_modules
-/build
-/temp
-.DS_STORE
-.gitignore
-/xnotes
+# Project notes and templates
+xnotes/
+
+# Build and output directories
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Log files
+.logs/
+
+# Private notes and drafts
+**/_*.md
+**/_*.mdc
+
+# System files
+.DS_Store
+Thumbs.db

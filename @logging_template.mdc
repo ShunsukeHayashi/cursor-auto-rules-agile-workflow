@@ -4,8 +4,15 @@
 - タイムスタンプ: {{timestamp}}
 - 実行者: {{executor}}
 - タスクID: {{task_id}}
+- コンテキストサイズ: {{context_size}}
 
-## 入力情報
+## メモリーバンク参照
+- プロジェクト: {{project_name}}
+- 現在のエピック: {{current_epic}}
+- 現在のストーリー: {{current_story}}
+- 実行フェーズ: {{execution_phase}}
+
+## 入力分析
 [Input] → [User Intent] → [Intent]({{intents}})
 [Input] → [User Intent] → [Want or need Intent]({{wants}})
 
@@ -18,13 +25,31 @@
 Achieve Goal == Need Tasks
 [Goal]=[Tasks]({{tasks}})
 
+## ルール適用
+- 適用ルール: {{applied_rules}}
+- ルールバージョン: {{rule_versions}}
+- 優先度調整: {{priority_adjustments}}
+
 ## 実行ステータス
 - ステータス: {{status}}
 - 進捗: {{progress}}
 - 結果: {{result}}
+- 検証結果: {{validation_results}}
 
-## フィードバック
-{{feedback}}
+## フィードバックループ
+- ユーザーフィードバック: {{feedback}}
+- AI分析: {{ai_analysis}}
+- ルール調整提案: {{rule_adjustments}}
+
+## メモリー更新
+- 新規学習項目: {{new_learnings}}
+- コンテキスト更新: {{context_updates}}
+- ルール最適化: {{rule_optimizations}}
 
 ## 次のアクション
 {{next_actions}}
+
+## 品質メトリクス
+- コード品質: {{code_quality}}
+- テストカバレッジ: {{test_coverage}}
+- ドキュメント完全性: {{documentation_completeness}}
